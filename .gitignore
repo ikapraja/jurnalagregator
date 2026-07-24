@@ -21,3 +21,26 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Database & Archive Backups (Security)
+*.sql
+*.zip
+*.tar
+*.tar.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary Development/Fix Scripts
+setup_*.php
+fix_*.php
+update_*.php
+debug_*.php
+cleanup_*.php
+test_*.php
+rewrite_*.php
+recluster.php
+prepare_*.php
+modify_*.php
+enable_*.php
